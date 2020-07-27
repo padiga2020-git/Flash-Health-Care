@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Flash health center </title>
+<style type="text/css">
+body{
+  background-image:url(image4.jpg);
+  background-size:cover;
+  background-attachment:fixed;
+}
+#bt1{
+position:absolute;
+right:10px;
+top:10px;
+font-size:20px;
+}
+</style>
+
+<script>
+
+function fun1(){
+location.replace("index.html");}
+</script>
+
+</head>
+<body>
+<button onclick="fun1()" id="bt1">Signout</button>
+<center><b><font color='black'>
+<br><br><br><br><br> 
+<div align="left"><center>
+<font size="5" color="blue">Problem/category<br></font>
+
+<select>
+<option>cardiologist</option>
+<option>neurologist</option>
+<option>radiologist</option>
+<option>dermatologist</option>
+<option>Ophthalmologist</option>
+<option>sports medicine</option>
+<option>urology</option>
+</select><br><br>
+
+<font size="5" color="blue">CurrentLocation/place<br></font>
+<select>
+<option>Amaravati</option>
+<option>vijayawada</option>
+<option>warangal</option>
+<option>guntur</option>
+<option>ongole</option>
+<option>tenali</option>
+<option>vizag</option>
+<option>Delhi</option>
+<option>none</option>
+<option>warangal</option>
+<option>guntur</option>
+<option>ongole</option>
+<option>tenali</option>
+</select><br><br>
+
+
+</font></b>
+
+<font size="5" color="blue">Suggestions<br></font>
+
+<select>
+<option>None</option>
+<option>Ramesh hospital</option>
+<option>fjghitrkjg</option>
+<option>hgbhukgjuy</option>
+<option>Ophth</option>
+<option> medicine</option>
+<option>urolghjtuyjhogy</option>
+</select><br><br>
+
+</div>
+</center></font>
+
+<center>
+<br><br><br>
+<form action="upload.php" method="post" enctype="multipart/form-data">
+<input type="file" name="file" />
+<button type="submit" name="btn-upload">upload</button>
+</form>
+</center>
+</body>
+</html>
